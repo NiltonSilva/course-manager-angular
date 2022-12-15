@@ -2,6 +2,7 @@ import { CourseService } from './course.service';
 import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { Course } from './course';
+import { map, pipe } from 'rxjs';
 
 @Component({
     templateUrl: 'course-info.component.html',
